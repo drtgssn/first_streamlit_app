@@ -1,4 +1,5 @@
 import streamlit
+import pandas
 
 # Create menu with title, headers and text
 streamlit.title('My Parents New Healthy Diner')
@@ -10,6 +11,12 @@ streamlit.text('🥑🍞 Avocado Toast')
 
 #Create Special Menu
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+
+#import fruit list from Amazon S3 Bucket
+my_fruit_list = pandas.read_csv('https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt')
+
+#display fruit list
+streamlit.dataframe(my_fruit_list)
 
 #--------------- OLD VERSION ----------------
 #import streamlit
