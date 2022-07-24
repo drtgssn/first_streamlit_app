@@ -3,4 +3,4 @@
 
 # requirements.txt
 snowflake-connector-python
-sudo pip install cffi==1.15.1
+pip install cffi==1.15.1
