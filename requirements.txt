@@ -1,6 +1,6 @@
-# streamlit==1.9.0
-# protobuf~=3.19.0
+streamlit==1.9.0
+protobuf~=3.19.0
 
 # requirements.txt
-sudo apt-get install python-cffi
+sudo pip install cffi==1.5.2
 snowflake-connector-python
