@@ -1,2 +1,5 @@
-streamlit==1.9.0
-protobuf~=3.19.0
+# streamlit==1.9.0
+# protobuf~=3.19.0
+
+# requirements.txt
+snowflake-connector-python
